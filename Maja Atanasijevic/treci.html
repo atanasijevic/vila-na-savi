@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stil/stil.css">
+  <title>Vila na Savi</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="shadow">
+
+    <header>
+<div class="wrapper">
+  <a href="index.html"><img id="logo" src="slike/logo.png" alt="logo"></a>
+<nav>
+<ul>
+<li><a href="index.html">Početna</a></li>
+
+<li><a href="drugi.html">Galerija</a></li>
+
+<li><a href="treci.html">Kontakt</a></li>
+
+</ul>
+</nav>
+</div>
+</header>
+
+
+
+<div class="about">
+ <h1 id="gal">Rezerviši</h1>
+
+<form action="rezervisanje.php" method="POST">
+
+
+  <label>Ime </label><input type="text" autofocus required><div class="razmak"></div>
+            <label>Prezime </label><input type="text" required><div class="razmak"></div>
+            <label>Email </label><input type="email" required><div class="razmak"></div>
+
+      <label>Osoba </label><select>
+      <option value="broj">1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+  <option>7</option>
+  <option>8</option>
+  <option>9</option>
+  <option>10</option>
+      </select><div class="razmak"></div>
+  <label for="start">Dolazak: </label>
+
+<input type="date" id="start" name="trip-start"
+       value="2020-08-20"
+       min="2020-08-20" max="2020-12-31">
+      <div class="razmak"></div>
+   <label for="start">Odlazak: </label>
+  <input type="date" id="end" name="trip-end"
+       value="2020-08-20"
+       min="2020-08-20" max="2020-12-31">
+   <div class="razmak"></div>
+      <input type="submit" value="Zakaži">
+
+           </form>
+
+<p id="naslovkontakt">
+  Kontakt
+  </p>
+
+  <p class="info">
+    Adresa: Savski nasip BB, Beograd</p>
+   <p class="info"> Mobilni: +38165 8517888
+  </p>
+      <button id="myBtn" title="Go to top"> <span>&#11165;</span></button>
+
+  </div>
+
+
+
+<footer>
+   <p>
+ Copyright @ Maja Atanasijević, 2020.
+   </p>
+
+</footer>
+  </div>
+  <script src="js/js1.js">
+
+  </script>
+</body>
+
+
+
+
+
+</html>
